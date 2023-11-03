@@ -1,0 +1,13 @@
+org_name: nullstone
+name: aws-ecs-service
+friendly_name: ECS Service
+description: Creates a container service that executes using AWS ECS
+category: app
+subcategory: container
+provider_types:
+    - aws
+platform: ecs
+subplatform: ec2
+type: ""
+appCategories: []
+is_public: true
