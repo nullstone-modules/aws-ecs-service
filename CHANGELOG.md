@@ -1,3 +1,6 @@
+# 0.1.2 (Jan 16, 2024)
+* Added metrics outputs to enable real-time monitoring.
+
 # 0.1.1 (Dec 28, 2023)
 * Added support for "target-group" metric alarms.
 * Added support for querying metric data from the log reader.
