@@ -1,3 +1,6 @@
+# 0.1.3 (Feb 06, 2024)
+* Added support for metrics for capabilities.
+
 # 0.1.2 (Jan 16, 2024)
 * Added metrics outputs to enable real-time monitoring.
 
