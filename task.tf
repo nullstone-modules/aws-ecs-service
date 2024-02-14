@@ -19,6 +19,8 @@ locals {
     mountPoints = local.mount_points
     volumesFrom = []
 
+    resourceRequirements = local.resource_requirements
+
     logConfiguration = local.log_configuration
   }
 }
