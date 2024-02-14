@@ -73,6 +73,7 @@ locals {
       }
     ]
 
+    // resource_requirements enables the usage of GPU cores in a container
     resource_requirements = [
       {
         type  = "GPU" // GPU|InferenceAccelerator
