@@ -1,3 +1,6 @@
+# 0.1.5 (Feb 14, 2024)
+* Added GPU support.
+
 # 0.1.4 (Feb 10, 2024)
 * Added permissions to list image tags in image repository.
 
