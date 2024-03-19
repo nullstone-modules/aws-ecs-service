@@ -1,3 +1,6 @@
+# 0.1.6 (Mar 19, 2024)
+* Upgrade terraform providers (aws -> `5.41.0`).
+
 # 0.1.5 (Feb 14, 2024)
 * Added GPU support.
 
