@@ -1,3 +1,6 @@
+# 0.1.8 (Apr 17, 2024)
+* Fixed support for `volume.host_path` from capabilities.
+
 # 0.1.7 (Apr 17, 2024)
 * Added support for `volume.host_path` on ECS Task Definition.
 
