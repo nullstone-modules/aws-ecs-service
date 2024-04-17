@@ -1,3 +1,6 @@
+# 0.1.7 (Apr 17, 2024)
+* Added support for `volume.host_path` on ECS Task Definition.
+
 # 0.1.6 (Mar 19, 2024)
 * Upgrade terraform providers (aws -> `5.41.0`).
 
