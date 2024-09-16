@@ -1,3 +1,6 @@
+# 0.1.11 (Sep 16, 2024)
+* Fixed removal of `ulimit` capability.
+
 # 0.1.10 (Sep 16, 2024)
 * Added `app/` prefix to cpu and memory metrics, so they are grouped on the dashboard.
 * Added support for `ulimit` on main container definition from capability modules.
