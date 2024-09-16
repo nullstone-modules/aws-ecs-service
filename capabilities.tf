@@ -77,7 +77,7 @@ locals {
     resource_requirements = [
       {
         type  = "GPU" // GPU|InferenceAccelerator
-        value = "1" // This is a string and represents the number of cores for a GPU
+        value = "1"   // This is a string and represents the number of cores for a GPU
       }
     ]
 
@@ -104,6 +104,15 @@ locals {
         rule_name = ""
         role_arn  = ""
         input     = "{}"
+      }
+    ]
+
+    // ulimits allow capabilities to modify ulimits on the main container
+    ulimits = [
+      {
+        name       = "" // "core"|"cpu"|"data"|"fsize"|"locks"|"memlock"|"msgqueue"|"nice"|"nofile"|"nproc"|"rss"|"rtprio"|"rttime"|"sigpending"|"stack"
+        softLimit = 0  // integer
+        hardLimit = 0  // integer
       }
     ]
 
