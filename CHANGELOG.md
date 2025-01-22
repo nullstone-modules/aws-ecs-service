@@ -1,3 +1,6 @@
+# 0.1.12 (Jan 22, 2025)
+* When an app secret is removed, it is immediately deleted from AWS secrets manager.
+
 # 0.1.11 (Sep 16, 2024)
 * Fixed removal of `ulimit` capability.
 
