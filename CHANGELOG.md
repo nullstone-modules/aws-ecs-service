@@ -1,3 +1,6 @@
+# 0.1.13 (Mar 19, 2025)
+* Added support for linux kernel capabilities from Nullstone capabilities.
+
 # 0.1.12 (Jan 22, 2025)
 * When an app secret is removed, it is immediately deleted from AWS secrets manager.
 

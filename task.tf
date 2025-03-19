@@ -24,6 +24,13 @@ locals {
     logConfiguration = local.log_configuration
 
     ulimits = local.ulimits
+
+    linuxParameters = len(local.kernel_cap_add) > 0 ? {
+      capabilities = {
+        add  = local.kernel_cap_add
+        drop = []
+      }
+    } : null
   }
 }
 
