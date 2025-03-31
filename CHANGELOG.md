@@ -1,3 +1,6 @@
+# 0.1.14 (Mar 31, 2025)
+* Fixed configuration of linux parameters.
+
 # 0.1.13 (Mar 19, 2025)
 * Added support for linux kernel capabilities from Nullstone capabilities.
 
