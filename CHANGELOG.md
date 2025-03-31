@@ -1,3 +1,6 @@
+# 0.1.16 (Mar 31, 2025)
+* Fixed `launch_type` injected into capabilities.
+
 # 0.1.15 (Mar 31, 2025)
 * Fixed contract for linux kernel capabilities from Nullstone capabilities.
 
