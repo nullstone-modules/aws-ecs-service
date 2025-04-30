@@ -110,7 +110,7 @@ locals {
     // ulimits allow capabilities to modify ulimits on the main container
     ulimits = [
       {
-        name       = "" // "core"|"cpu"|"data"|"fsize"|"locks"|"memlock"|"msgqueue"|"nice"|"nofile"|"nproc"|"rss"|"rtprio"|"rttime"|"sigpending"|"stack"
+        name      = "" // "core"|"cpu"|"data"|"fsize"|"locks"|"memlock"|"msgqueue"|"nice"|"nofile"|"nproc"|"rss"|"rtprio"|"rttime"|"sigpending"|"stack"
         softLimit = 0  // integer
         hardLimit = 0  // integer
       }

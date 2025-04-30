@@ -1,3 +1,6 @@
+# 0.1.17 (Apr 30, 2025)
+* Configured main container with `pseudoTerminal`.
+
 # 0.1.16 (Mar 31, 2025)
 * Fixed `launch_type` injected into capabilities.
 
