@@ -1,3 +1,6 @@
+# 0.1.19 (Jul 21, 2025)
+* Upgraded all terraform providers to latest.
+
 # 0.1.18 (Jul 09, 2025)
 * Added `nullstone.io/version` tag to task definition.
 
