@@ -1,3 +1,6 @@
+# 0.1.20 (Jul 31, 2025)
+* Fixed linux kernel capabilities when none are specified.
+
 # 0.1.19 (Jul 21, 2025)
 * Upgraded all terraform providers to latest.
 
