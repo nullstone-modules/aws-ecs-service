@@ -1,3 +1,6 @@
+# 0.1.21 (Aug 18, 2025)
+* Added support for `linuxParameters` in capabilities.
+
 # 0.1.20 (Jul 31, 2025)
 * Fixed linux kernel capabilities when none are specified.
 
