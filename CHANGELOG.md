@@ -1,3 +1,6 @@
+# 0.1.23 (Aug 19, 2025)
+* Fixed syntax constructing `linuxParameters`.
+
 # 0.1.22 (Aug 19, 2025)
 * Fixed kernel capabilities included in `linuxParameters`.
 
