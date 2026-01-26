@@ -1,3 +1,6 @@
+# 0.2.2 (Jan 26, 2026)
+* Fixed usage of deprecated attribute `aws_region.name`.
+
 # 0.2.1 (Sep 29, 2025)
 * Configure log retention via cluster configuration.
 
