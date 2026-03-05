@@ -1,3 +1,6 @@
+# 0.2.3 (Mar 05, 2026)
+* Upgrade to latest ns terraform provider to improve env var interpolation
+
 # 0.2.2 (Jan 26, 2026)
 * Fixed usage of deprecated attribute `aws_region.name`.
 
