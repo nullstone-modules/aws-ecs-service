@@ -51,12 +51,11 @@ output "image_repo_url" {
 
 output "image_pusher" {
   value = {
-    name       = try(aws_iam_user.image_pusher[0].name, "")
-    access_key = try(aws_iam_access_key.image_pusher[0].id, "")
-    secret_key = try(aws_iam_access_key.image_pusher[0].secret, "")
+    role_arn         = try(aws_iam_role.pusher[0].name, "")
+    session_duration = 3600 // 1 hour
   }
 
-  description = "object({ name: string, access_key: string, secret_key: string }) ||| An AWS User with explicit privilege to push images."
+  description = "object({ role_arn: string, session_duration: number }) ||| An AWS role with explicit privilege to push images."
 
   sensitive = true
 }
