@@ -1,3 +1,10 @@
+locals {
+  pusher = {
+    role_arn         = try(aws_iam_role.pusher[0].name, "")
+    session_duration = 3600 // 1 hour
+  }
+}
+
 resource "aws_iam_role" "pusher" {
   name               = "pusher-${local.resource_name}"
   tags               = local.tags
