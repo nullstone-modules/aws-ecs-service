@@ -59,6 +59,7 @@ data "aws_iam_policy_document" "deployer_assume" {
     actions = [
       "sts:AssumeRole",
       "sts:SetSourceIdentity",
+      "sts:TagSession",
     ]
 
     principals {

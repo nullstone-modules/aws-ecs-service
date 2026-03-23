@@ -20,6 +20,7 @@ data "aws_iam_policy_document" "pusher_assume" {
     actions = [
       "sts:AssumeRole",
       "sts:SetSourceIdentity",
+      "sts:TagSession",
     ]
 
     principals {
