@@ -1,3 +1,7 @@
+# 0.4.0 (Jun 19, 2026)
+* Upgraded `nullstone-io/ns` provider to `~> 0.11.0`.
+* Used `aws_tags` from `data.ns_workspace` to tag all resources via provider `default_tags`.
+
 # 0.3.1 (May 26, 2026)
 * Use "latest" revision to trigger task via events.
 
