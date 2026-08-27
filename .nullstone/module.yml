@@ -4,6 +4,7 @@ friendly_name: ECS Service
 description: Creates a container service that executes using AWS ECS
 category: app
 subcategory: container
+app_type: generic
 provider_types:
     - aws
 platform: ecs
