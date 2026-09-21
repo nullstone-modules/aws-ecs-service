@@ -1,3 +1,6 @@
+# 0.4.2 (Sep 21, 2026)
+* Set `propagate_tags = "SERVICE"` so tasks launched by the service carry the workspace tags.
+
 # 0.4.1 (Jul 15, 2026)
 * Added `image_repo_name` to capability `app_metadata`.
 
